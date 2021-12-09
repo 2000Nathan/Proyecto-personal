@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="new-background-color">
+    <ion-searchbar></ion-searchbar>
+    <ion-icon slot="end"name="bag-handle-outline"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title></ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <app-explore-container name="Tienda"></app-explore-container>
+
+  
+</ion-content>
+
+<style>
+  .new-background-color {
+    --background: #d6571c;
+  }
+  ion-icon{
+    font-size: 30px;
+    padding-right: 10px;
+    color: rgb(185, 183, 183);
+  }
+</style>
+

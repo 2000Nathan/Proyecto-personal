@@ -1,0 +1,83 @@
+.caja {
+    position: relative;
+    display: inline-block;
+}
+
+h1 {
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(248, 246, 246);
+}
+ b{
+  position: absolute;
+    top: 130px;
+    left: 60%;
+    font-size: 20px;
+    font-weight: 100;
+    color: #d6571c;
+}
+
+  .otros{
+    height: 2px;
+    background-color: #d6571c;
+    margin: 10px 20px ;
+
+  }
+  h3{
+    font-size: 20px;
+    padding-left: 10px;
+    line-height: 45px;
+  
+  }
+
+
+
+  .new-background-color {
+    --background: #d6571c;
+  }
+  ion-icon{
+    font-size: 30px;
+    padding-right: 10px;
+    color: rgb(185, 183, 183);
+  }
+
+  .icon {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+.swiper-slide {
+    display: block;
+    
+}
+
+.swiper-slide h2 {
+    margin: 2px;
+    font-size: 18px;
+    padding: 0px 40px;
+    text-align: left;
+}
+
+.swiper-slide img {
+    max-height: 50%;
+    max-width: 80%;
+    margin: 60px 0 40px;
+    pointer-events: none;
+}
+
+p {
+    padding: 0 40px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1px;
+    color: #d6571c;
+}
+
+.line{
+  height: 2px;
+    background-color: #d6571c;
+    margin: 10px 20px ;
+}
